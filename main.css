@@ -1,0 +1,41 @@
+header{
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  color: orange;
+  text-shadow: 3px 3px 10px #777;
+}
+
+#main-pic-container{
+  max-width: 1300px;
+  overflow: auto;
+  margin: auto;
+}
+
+body{
+  background: orange;
+}
+
+#main-pic-container img{
+  width: 100%;
+}
+
+form{
+  background: orange;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+form input{
+  min-width: 300px;
+}
+
+form label{
+  margin: 10px 30px;
+}
+
+#page-container{
+  max-width: 1300px;
+  background: grey;
+}
