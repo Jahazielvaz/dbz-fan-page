@@ -1,3 +1,17 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#page-container{
+  max-width: 1300px;
+  padding-bottom: 30px;
+  background: grey;
+  margin: auto;
+}
+
 header{
   background: #333;
   padding: 20px;
@@ -5,6 +19,7 @@ header{
   color: orange;
   text-shadow: 3px 3px 10px #777;
 }
+
 
 #main-pic-container{
   max-width: 1300px;
@@ -20,22 +35,61 @@ body{
   width: 100%;
 }
 
+#body-container{
+  max-width: 1060px;
+  margin: 20px auto;
+
+}
+
 form{
-  background: orange;
+  background: #333;
   max-width: 500px;
   margin: auto;
   padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  border: 7px double orange;
+  color: orange;
+}
+
+form p{
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 form input{
-  min-width: 300px;
+  min-width: 100px;
+  height: 30px;
+  margin: auto;
+  display: block;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+
 }
 
 form label{
   margin: 10px 30px;
+  text-align: center;
+  display: block;
 }
 
-#page-container{
-  max-width: 1300px;
-  background: grey;
+form textarea{
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#second-page{
+  display: inline-block;
+  min-width: 510px;
+  min-height: 325px;
+  background: url("https://cdn.wccftech.com/wp-content/uploads/2017/07/Dragon-Ball-FighterZ-New-characters-740x413.png") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  border: 7px double #333;
+  color: orange;
 }
