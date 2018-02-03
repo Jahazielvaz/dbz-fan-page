@@ -20,3 +20,7 @@ app.get('/comments', function(req, res){
 app.listen(3000, function(){
   console.log('Now listening to port 3000');
 })
+
+app.post('/'){
+  
+}
