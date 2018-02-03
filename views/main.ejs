@@ -17,12 +17,12 @@
       </div>
 
       <div id="body-container">
-        <form id="form-container" method="POST" action="/comments">
+        <form id="form-container" method="POST" action="/">
               <p>Please tell us who your favorite DBZ Character is, and why</p>
           <label for="fav-char">Your Favorite Character</label>
-          <input type="text" name="fav-char"><br>
+          <input type="text" name="favchar" value="<% users.favchar %>"><br>
           <label for="why">Why</label>
-          <textarea name="why" rows="3" cols="34"></textarea><br>
+          <textarea name="why" rows="3" cols="34" value="<% users.why %>"></textarea><br>
           <input type="submit">
         </form>
         <a href="localhost:3000/comments">

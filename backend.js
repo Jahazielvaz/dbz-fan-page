@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
   console.log(`Request has been made: ${req.url}`);
-  res.sendFile(__dirname + '/main.html');
+  res.render('main', {users: req.query});
 })
 
 app.get('/comments', function(req, res){
@@ -21,6 +21,7 @@ app.listen(3000, function(){
   console.log('Now listening to port 3000');
 })
 
-app.post('/'){
-  
-}
+app.post('/', urlEncoded, function(req, res){
+  console.log(req.body);
+  res.render('comments', {users: req.query});
+})
