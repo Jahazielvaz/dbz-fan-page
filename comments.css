@@ -1,0 +1,40 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#page-container{
+  max-width: 1300px;
+  padding-bottom: 30px;
+  background: grey;
+  margin: auto;
+}
+
+header{
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  color: orange;
+  text-shadow: 3px 3px 10px #777;
+}
+
+body{
+  background: orange;
+}
+
+#comment{
+  background: #333;
+  margin: 10px auto;
+  border: 7px double orange;
+  color: orange;
+  min-height: 30px;
+  line-height: 40px;
+  max-width: 800px;
+
+}
+
+#comment p{
+  margin-left: 10px;
+}

@@ -36,7 +36,7 @@ body{
 }
 
 #body-container{
-  max-width: 1060px;
+  max-width: 1100px;
   margin: 20px auto;
 
 }
@@ -44,7 +44,7 @@ body{
 form{
   background: #333;
   max-width: 500px;
-  margin: auto;
+  margin: 0 10px;
   padding: 10px;
   font-size: 20px;
   text-align: center;
@@ -90,6 +90,11 @@ form textarea{
   background: url("https://cdn.wccftech.com/wp-content/uploads/2017/07/Dragon-Ball-FighterZ-New-characters-740x413.png") no-repeat center;
   background-size: cover;
   overflow: hidden;
-  border: 7px double #333;
-  color: orange;
+  border: 7px double orange;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: 270px;
+  text-shadow: 2px 2px 10px black;
+  margin: 0 10px;
 }
