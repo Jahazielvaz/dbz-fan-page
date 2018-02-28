@@ -2,8 +2,9 @@
   "name": "bulletinboard-app",
   "version": "1.0.0",
   "description": "nycda project",
-  "main": "index.js",
+  "main": "bin/www",
   "scripts": {
+    "server": "nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +12,9 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.35.0"
   }
 }

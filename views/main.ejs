@@ -25,11 +25,14 @@
           <textarea name="why" rows="3" cols="34" value="<% users.why %>"></textarea><br>
           <input type="submit">
         </form>
-        <a href="localhost:3000/comments">
-          <section id="second-page">
-            <h2>SEE ALL COMMENTS</h2>
-          </section>
-        </a>
+
+        <form method="POST" action="/" id="second-page">
+          <input type="text" name="username" placeholder="Username"><br>
+          <input type="text" name="email" placeholder="Email"><br>
+          <input type="password" name="password" placeholder="john2341"><br>
+          <input type="submit">
+        </form>
+
       </div>
     </div>
   </body>

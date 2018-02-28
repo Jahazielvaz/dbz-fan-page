@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "KupidoExportLLC",
+    "password": null,
+    "database": "trialdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "KupidoExportLLC",
+    "password": null,
+    "database": "trialdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "KupidoExportLLC",
+    "password": null,
+    "database": "trialdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
